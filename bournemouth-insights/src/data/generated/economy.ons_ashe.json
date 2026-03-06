@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-06",
+  "areaCode": "E06000058",
+  "sourceId": "ons_ashe",
+  "sourceUrl": "file:data/raw/ashe_earnings.csv",
+  "dataThroughDate": "2025-12-31",
+  "coverage": "Median earnings series is snapshot-backed from a manually provided CSV export of ONS ASHE (or equivalent official extract). Replace data/raw/ashe_earnings.csv with an official extract to publish real values.",
+  "series": {
+    "id": "median_earnings",
+    "label": "Median annual earnings",
+    "unit": "gbp",
+    "points": [
+      { "date": "2020-12-31", "value": 29500 },
+      { "date": "2021-12-31", "value": 30200 },
+      { "date": "2022-12-31", "value": 31200 },
+      { "date": "2023-12-31", "value": 32000 },
+      { "date": "2024-12-31", "value": 32150 },
+      { "date": "2025-12-31", "value": 33500 }
+    ]
+  }
+}

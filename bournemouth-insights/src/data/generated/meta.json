@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-06",
+  "liveIndicators": [
+    {
+      "sectionId": "housing",
+      "indicatorId": "house_price",
+      "label": "Average house price (UKHPI)",
+      "sourceId": "ukhpi",
+      "coverage": "Annualised from monthly UKHPI average price for E06000058; each point uses the latest available month in that calendar year."
+    },
+    {
+      "sectionId": "demographics",
+      "indicatorId": "population",
+      "label": "Population (ONS mid-year, manual import)",
+      "sourceId": "ons_pop",
+      "coverage": "Snapshot-backed via manual CSV import. Replace data/raw/ons_population.csv with an official extract to publish real values."
+    },
+    {
+      "sectionId": "economy",
+      "indicatorId": "median_earnings",
+      "label": "Median annual earnings (ASHE, manual import)",
+      "sourceId": "ons_ashe",
+      "coverage": "Snapshot-backed via manual CSV import. Replace data/raw/ashe_earnings.csv with an official extract to publish real values."
+    }
+  ]
+}

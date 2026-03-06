@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+*.log
+*.tsbuildinfo
+
+# Optional: keep raw input data local (snapshots in src/data/generated stay tracked)
+data/raw/

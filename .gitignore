@@ -1,0 +1,23 @@
+# Local tooling
+.tools/
+_backup_*.zip
+
+# Node / frontend
+**/node_modules/
+**/dist/
+**/*.log
+**/coverage/
+
+# Env files
+**/.env
+**/.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# TypeScript incremental build output
+**/*.tsbuildinfo
+
+# Optional: keep raw input data local (snapshots in src/data/generated stay tracked)
+bournemouth-insights/data/raw/
