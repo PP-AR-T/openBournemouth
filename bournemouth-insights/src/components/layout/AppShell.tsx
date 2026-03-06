@@ -30,7 +30,62 @@ export function AppShell({ children }: { children: ReactNode }) {
               }
               end
             >
-              Dashboard
+              Overview
+            </NavLink>
+            <NavLink
+              to="/housing"
+              className={({ isActive }) =>
+                [
+                  'rounded-md px-3 py-2 text-slate-700 hover:bg-slate-50 hover:text-slate-900',
+                  isActive ? 'bg-slate-100 text-slate-900' : '',
+                ].join(' ')
+              }
+            >
+              Housing
+            </NavLink>
+            <NavLink
+              to="/population"
+              className={({ isActive }) =>
+                [
+                  'rounded-md px-3 py-2 text-slate-700 hover:bg-slate-50 hover:text-slate-900',
+                  isActive ? 'bg-slate-100 text-slate-900' : '',
+                ].join(' ')
+              }
+            >
+              Population
+            </NavLink>
+            <NavLink
+              to="/economy"
+              className={({ isActive }) =>
+                [
+                  'rounded-md px-3 py-2 text-slate-700 hover:bg-slate-50 hover:text-slate-900',
+                  isActive ? 'bg-slate-100 text-slate-900' : '',
+                ].join(' ')
+              }
+            >
+              Economy
+            </NavLink>
+            <NavLink
+              to="/safety"
+              className={({ isActive }) =>
+                [
+                  'rounded-md px-3 py-2 text-slate-700 hover:bg-slate-50 hover:text-slate-900',
+                  isActive ? 'bg-slate-100 text-slate-900' : '',
+                ].join(' ')
+              }
+            >
+              Safety
+            </NavLink>
+            <NavLink
+              to="/insights"
+              className={({ isActive }) =>
+                [
+                  'rounded-md px-3 py-2 text-slate-700 hover:bg-slate-50 hover:text-slate-900',
+                  isActive ? 'bg-slate-100 text-slate-900' : '',
+                ].join(' ')
+              }
+            >
+              Insights
             </NavLink>
             <NavLink
               to="/methodology"
